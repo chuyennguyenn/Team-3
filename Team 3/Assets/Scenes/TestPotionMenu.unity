@@ -537,6 +537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044cd056e877dbe41a1b88cb4c43a660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionWindow: {fileID: 0}
 --- !u!114 &671744672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,6 +1130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044cd056e877dbe41a1b88cb4c43a660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionWindow: {fileID: 0}
 --- !u!114 &1280402606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1398,6 +1400,7 @@ MonoBehaviour:
   firstItem: {fileID: 0}
   secondItem: {fileID: 0}
   selectedItem: {fileID: 0}
+  items: []
 --- !u!1 &1569970940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,6 +1503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044cd056e877dbe41a1b88cb4c43a660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionWindow: {fileID: 0}
 --- !u!61 &1569970944
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2401,6 +2405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044cd056e877dbe41a1b88cb4c43a660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionWindow: {fileID: 0}
 --- !u!114 &2020555480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,6 +2651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044cd056e877dbe41a1b88cb4c43a660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionWindow: {fileID: 0}
 --- !u!114 &2081080448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2673,18 +2679,6 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1469821806}
-          m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-          m_MethodName: SendMessage
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: '"itemSetter", this.gameObject'
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!61 &2081080449
