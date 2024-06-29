@@ -5,10 +5,12 @@ using UnityEngine;
 public class ClickableItem : MonoBehaviour
 {
     public PotionSelector potionWindow;
+    SpriteRenderer sr;
     // Start is called before the first frame update
     void Start()
     {
         potionWindow = GetComponentInParent<PotionSelector>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
