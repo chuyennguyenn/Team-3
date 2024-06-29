@@ -13,13 +13,17 @@ public class PotionSelector : MonoBehaviour
     void Start()
     {
         items = GetComponentsInChildren<ClickableItem>();
+        //firstItem = GetComponentsInChildren<ClickableResult>();
         //print(items);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Debug.Log(firstItem.name);
+            Debug.Log(secondItem.name);
+        }
     }
 
     public void testEventMessage() {
@@ -30,9 +34,12 @@ public class PotionSelector : MonoBehaviour
         selectedItem = this.gameObject;
         Debug.Log(selectedItem + " has been set.");
     }
-    public void itemSetter(GameObject currItem) {
+    public GameObject itemSetter(GameObject currItem) {
         if (selectedItem != null) {
-            
+            firstItem = currItem;
+            selectedItem = null;
+            return firstItem;
         }
+        return null;
     }
 }
