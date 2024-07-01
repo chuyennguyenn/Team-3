@@ -701,6 +701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potionWindow: {fileID: 0}
+  placedItem: {fileID: 0}
 --- !u!61 &752032557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1355,7 +1356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1469821805
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1802,6 +1803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potionWindow: {fileID: 0}
+  placedItem: {fileID: 0}
 --- !u!61 &1716019773
 BoxCollider2D:
   m_ObjectHideFlags: 0
