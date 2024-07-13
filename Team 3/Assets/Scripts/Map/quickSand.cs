@@ -9,7 +9,7 @@ public class quickSand : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerCtrl player = other.GetComponent<PlayerCtrl>();
+        dummy player = other.GetComponent<dummy>();
         if (player != null)
         {
             player.MS = 5;
@@ -18,7 +18,7 @@ public class quickSand : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        PlayerCtrl player = other.GetComponent<PlayerCtrl>();
+        dummy player = other.GetComponent<dummy>();
         if (player != null)
         {
             player.MS = 10;
