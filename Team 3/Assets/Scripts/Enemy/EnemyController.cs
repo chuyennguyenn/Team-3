@@ -8,21 +8,32 @@ public class EnemyController : MonoBehaviour
     private Transform target;
     private float _health;
     private float _maxHealth=4;
+    Animator animator;
+
+    bool isAlive = true;
 
     private void Start()
     {
         _health = _maxHealth;
+        animator = GetComponent<Animator>();
+        animator.SetBool("isAlive", isAlive);
     }
 
     public float Health
         {
             set
             {
-                _health = value;
+            if (value < _health)
+            {
+                animator.SetTrigger("hit");
+            }
+
+            _health = value;
+
 
                 if (_health <= 0)
                 {
-                    Destroy(gameObject);
+                   animator.SetBool("isAlive", false);
                 }
             }
     }
