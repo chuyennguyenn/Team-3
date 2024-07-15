@@ -70,6 +70,15 @@ public class EnemyController : MonoBehaviour
             {
                 Vector2 direction = target.position - transform.position;
                 direction.Normalize();
+            bool flipped = direction.x < 0;
+            this.transform.rotation = Quaternion.Euler(new Vector3(0f,flipped ? 180f : 0f, 0f));
+
+            if (direction != Vector2.zero)//(0,0)
+            {
+                var xMovement = direction.x * speed * Time.deltaTime;
+                this.transform.Translate(new Vector3(xMovement, 0), Space.World);
+
+            }
 
             if (_health < _maxHealth / 2)
                  {
