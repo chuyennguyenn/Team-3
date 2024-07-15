@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
 {
-
+    public coinMNG cm;
     public float MS;
     private bool _isMoving = false;
     // public bool isMoving { get{
@@ -38,4 +38,10 @@ public class PlayerCtrl : MonoBehaviour
     //     moveInput = context.ReadValue<Vector2>();
     //     isMoving = moveInput != Vector2.zero;
     // }
+    void OnTriggerEnter2D(Collider2D other){
+        if(other.gameObject.CompareTag("coin")){
+            Destroy(other.gameObject);
+            cm.coinCount ++;
+        }
+    }
 }
