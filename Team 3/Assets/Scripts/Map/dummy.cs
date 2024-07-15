@@ -8,6 +8,7 @@ public class dummy : MonoBehaviour
     public float MS;
     private bool _isMoving = false;
     public float forced;
+    public int health;
     //public Rigidbody2D rb;
     // public bool isMoving { get{
     //     return _isMoving;
