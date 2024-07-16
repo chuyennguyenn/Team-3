@@ -5745,14 +5745,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 3320747167446082043, guid: 71ef96e2208d8974689aa84672bea7c3, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 21.300003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3320747167446082043, guid: 71ef96e2208d8974689aa84672bea7c3, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7537760975460697753, guid: 71ef96e2208d8974689aa84672bea7c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
