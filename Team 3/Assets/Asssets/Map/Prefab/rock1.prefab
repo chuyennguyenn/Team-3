@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5662805065114987179}
   - component: {fileID: 844378213158371892}
   - component: {fileID: 927438186757364278}
-  - component: {fileID: 8778288958642253792}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -172,50 +171,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.38267803, y: 0.3734392}
   m_EdgeRadius: 0
---- !u!68 &8778288958642253792
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4057985766561631766}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.027238876, y: -0.15806262}
-  - {x: -0.19409107, y: -0.051863495}
-  - {x: -0.12679535, y: 0.124894954}
-  - {x: -0.018057078, y: 0.20295128}
-  - {x: 0.0017809384, y: 0.20116283}
-  - {x: 0.10746045, y: 0.12656325}
-  - {x: 0.20796023, y: 0.015451923}
-  - {x: 0.03586322, y: -0.15303102}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0

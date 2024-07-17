@@ -7,6 +7,7 @@ public class PlayerCtrl : MonoBehaviour
     public coinMNG cm;
     public float MS;
     private bool _isMoving = false;
+    public int health;
     // public bool isMoving { get{
     //     return _isMoving;
     // } private set{
