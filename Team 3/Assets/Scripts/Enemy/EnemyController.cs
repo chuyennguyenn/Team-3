@@ -8,21 +8,39 @@ public class EnemyController : MonoBehaviour
     private Transform target;
     private float _health;
     private float _maxHealth=4;
+    Animator animator;
+    private Vector2 randomTarget;
+    private float changeDirectionTime = 2f;
+    private float timeSinceDirectionChange;
+
+    bool isAlive = true;
+    bool isMoving = false;
 
     private void Start()
     {
         _health = _maxHealth;
+        animator = GetComponent<Animator>();
+        animator.SetBool("isAlive", isAlive);
+        animator.SetBool("isMoving", isMoving);
     }
 
     public float Health
         {
             set
             {
-                _health = value;
+            if (value < _health)
+            {
+                animator.SetTrigger("hit");
+            }
+
+            _health = value;
+
 
                 if (_health <= 0)
                 {
-                    Destroy(gameObject);
+                   animator.SetBool("isAlive", false);
+                    GetComponent<LootBag>().InsanLoot(transform.position);
+                    Die();
                 }
             }
     }
@@ -51,29 +69,84 @@ public class EnemyController : MonoBehaviour
 
 
         }
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
+
+
+    private void detemisticMover(Vector2 targetPosition)
+    {
+        Vector2 direction = target.position - transform.position;
+        direction.Normalize();
+        bool flipped = direction.x < 0;
+        this.transform.rotation = Quaternion.Euler(new Vector3(0f, flipped ? 180f : 0f, 0f));
+
+        if (direction != Vector2.zero)//(0,0)
+        {
+            var xMovement = direction.x * speed * Time.deltaTime;
+            this.transform.Translate(new Vector3(xMovement, 0), Space.World);
+
+        }
+
+        if (_health < _maxHealth / 2)
+        {
+            // Move the enemy away from the target
+            Vector2 oppositeDirection = (Vector2)transform.position - direction;
+            transform.position = Vector2.MoveTowards(transform.position, oppositeDirection, speed * Time.deltaTime);
+        }
+        else
+        {
+            // Move the enemy towards the target
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+
+        }
+    }
+
+        private void PickRandomDirection()
+        {
+        Vector2 randomDirection = Random.insideUnitCircle.normalized;
+        randomTarget = (Vector2)transform.position + randomDirection * 5f;
+        }
+
+        private void moveRandomly(){
+
+        timeSinceDirectionChange += Time.deltaTime;
+        if (timeSinceDirectionChange >= changeDirectionTime){
+            PickRandomDirection();
+             timeSinceDirectionChange = 0f;
+        }
+
+         Vector2 direction = randomTarget - (Vector2)transform.position;
+         if (direction.magnitude < 0.1f)
+            {
+                PickRandomDirection();
+            }
+            else
+                {
+                direction.Normalize();
+                bool flipped = direction.x < 0;
+                transform.rotation = Quaternion.Euler(new Vector3(0f, flipped ? 180f : 0f, 0f));
+
+                transform.position = Vector2.MoveTowards(transform.position, randomTarget, speed * Time.deltaTime);
+                }
+         }
 
         private void Update()
         {
             // If there is a target, move towards it
             if (target != null)
             {
-                Vector2 direction = target.position - transform.position;
-                direction.Normalize();
+            detemisticMover(target.position);
+            animator.SetBool("isMoving", true);// run at enemy
 
-            if (_health < _maxHealth / 2)
-                 {
-                        // Move the enemy away from the target
-                    Vector2 oppositeDirection = (Vector2)transform.position - direction;
-                    transform.position = Vector2.MoveTowards(transform.position, oppositeDirection, speed * Time.deltaTime);
-                    }
-                else
-                     {
-                // Move the enemy towards the target
-                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        }
+        else
+            {
+            animator.SetBool("isMoving", false);//idle walk 
+            moveRandomly();
+        }
 
-                }
-        
-            }
 
         }
 
