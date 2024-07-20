@@ -6,7 +6,7 @@ public class cactus : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<dummy>().health -= 1;
-        Debug.Log(collision.gameObject.GetComponent<dummy>().health);
+        collision.gameObject.GetComponent<PlayerCtrl>().health -= 1;
+        Debug.Log(collision.gameObject.GetComponent<PlayerCtrl>().health);
     }
 }

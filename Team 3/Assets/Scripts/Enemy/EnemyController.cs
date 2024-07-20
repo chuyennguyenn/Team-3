@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyController : MonoBehaviour
 {
     public float speed = 3f;
     private Transform target;
-    private float _health;
-    private float _maxHealth=4;
+    [SerializeField] private float _health;
+    [SerializeField] public float _maxHealth=4;
     Animator animator;
     private Vector2 randomTarget;
     private float changeDirectionTime = 2f;
@@ -22,6 +23,7 @@ public class EnemyController : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetBool("isAlive", isAlive);
         animator.SetBool("isMoving", isMoving);
+
     }
 
     public float Health
@@ -36,7 +38,7 @@ public class EnemyController : MonoBehaviour
             _health = value;
 
 
-                if (_health <= 0)
+            if (_health <= 0)
                 {
                    animator.SetBool("isAlive", false);
                     GetComponent<LootBag>().InsanLoot(transform.position);
@@ -93,6 +95,7 @@ public class EnemyController : MonoBehaviour
         {
             // Move the enemy away from the target
             Vector2 oppositeDirection = (Vector2)transform.position - direction;
+            oppositeDirection.Normalize();
             transform.position = Vector2.MoveTowards(transform.position, oppositeDirection, speed * Time.deltaTime);
         }
         else
