@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
 {
+    //projectile
+    public weapon wp;
+    Vector2 moveDirection;
+    Vector2 mousePosition;
+    public float bulletSpeed = 3;
     public coinMNG cm;
     public float MS;
     private bool _isMoving = false;
@@ -15,7 +20,7 @@ public class PlayerCtrl : MonoBehaviour
     //     animator.SetBool("isMoving", value)
     // }}
     float spdX, spdY;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     Animator animator;
     // private void Awake(){
     //     rb = GetComponent<Rigidbody2D>();
@@ -31,14 +36,26 @@ public class PlayerCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // movement
         spdX = Input.GetAxisRaw("Horizontal") * MS;
         spdY = Input.GetAxisRaw("Vertical") * MS;
-        rb.velocity = new Vector2(spdX,spdY);
+        
+
+        // projectile
+        if(Input.GetKeyDown(KeyCode.Space)){
+            wp.Fire();
+        }
+// Input.GetMouseButtonDown(0)
+        moveDirection = new Vector2(spdX,spdY).normalized;
+        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        
     }
-    // public void OnMove(InputAction.CallbackContext context){
-    //     moveInput = context.ReadValue<Vector2>();
-    //     isMoving = moveInput != Vector2.zero;
-    // }
+    private void FixedUpdate(){
+        rb.velocity = new Vector2(spdX,spdY);
+        Vector2 aimDirection = mousePosition - rb.position;
+        float aimAngle = Mathf.Atan2(aimDirection.y , aimDirection.x) * Mathf.Rad2Deg - 90f;
+        // rb.rotation = aimAngle;
+    }
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.CompareTag("coin")){
             Destroy(other.gameObject);
