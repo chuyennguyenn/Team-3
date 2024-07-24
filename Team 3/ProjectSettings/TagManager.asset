@@ -5,15 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - coin
+  - Enemy
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacle
   - Water
   - UI
   - Decorate
-  - 
+  - Player
   - 
   - 
   - 
