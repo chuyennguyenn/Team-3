@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class coinMNG : MonoBehaviour
 {   
     public int coinCount;
-    public Text coinText;
+    public TextMeshProUGUI coinText;
     public GameObject door;
     private bool doorDestroyed = false;
     // Start is called before the first frame update
