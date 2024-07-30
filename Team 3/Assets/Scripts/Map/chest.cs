@@ -33,7 +33,7 @@ public class chest : MonoBehaviour
         {
             Debug.Log("out");
             inThere = false;
-            animator.SetBool("isPress", false);
+   //        animator.SetBool("isPress", false);
         }
 
     }
@@ -43,7 +43,7 @@ public class chest : MonoBehaviour
         if (Input.GetKeyDown("e") && inThere == true)
         {
             Debug.Log("e");
-            animator.SetBool("isPress", true);
+     //       animator.SetBool("isPress", true);
         }
     }
 }
