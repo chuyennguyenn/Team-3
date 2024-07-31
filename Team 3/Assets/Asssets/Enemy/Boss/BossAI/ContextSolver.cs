@@ -56,7 +56,7 @@ public class ContextSolver : MonoBehaviour
     {
         if (Application.isPlaying && showGizmos)
         {
-            Gizmos.color = Color.yellow;
+            Gizmos.color = Color.blue;
             Gizmos.DrawRay(transform.position, resultDirection * rayLength);
         }
     }

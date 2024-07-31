@@ -105,6 +105,8 @@ GameObject:
   - component: {fileID: 6370936511247579977}
   - component: {fileID: 9059356836402637479}
   - component: {fileID: 5135155067009578945}
+  - component: {fileID: 5697113052297727714}
+  - component: {fileID: 6628546957239401038}
   - component: {fileID: 3765541090029730710}
   - component: {fileID: 7503112062084793168}
   - component: {fileID: 2024093848120131682}
@@ -223,6 +225,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8f250d815ba81544b1b2faa4d6b2464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5697113052297727714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353976911851950694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9974c35b92895b47adbfc373064b59d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6628546957239401038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353976911851950694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f73238dc4c3ff645a0ba07dd30cb10f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 2
+  acceleration: 50
+  deacceleration: 100
+  currentSpeed: 0
 --- !u!114 &3765541090029730710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20579d3f458a1a54fb4ee6fbcd50c5e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steeringBehaviors: []
+  steeringBehaviors:
+  - {fileID: 4199747878303838726}
+  - {fileID: 3812488574045616113}
   detectors:
   - {fileID: 8885975570613606075}
   - {fileID: 911173624563312298}
@@ -261,15 +293,51 @@ MonoBehaviour:
   attackDistance: 0.5
   OnAttackPressed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5135155067009578945}
+        m_TargetAssemblyTypeName: BossScript, Assembly-CSharp
+        m_MethodName: PerformAttack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnMovementInput:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5135155067009578945}
+        m_TargetAssemblyTypeName: BossScript, Assembly-CSharp
+        m_MethodName: set_MovementInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnPointerInput:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5135155067009578945}
+        m_TargetAssemblyTypeName: BossScript, Assembly-CSharp
+        m_MethodName: set_PointerInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   movementInput: {x: 0, y: 0}
-  movementDirectionSolver: {fileID: 0}
+  movementDirectionSolver: {fileID: 778568807853293413}
 --- !u!95 &2024093848120131682
 Animator:
   serializedVersion: 5

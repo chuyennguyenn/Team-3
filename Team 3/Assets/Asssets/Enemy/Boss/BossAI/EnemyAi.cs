@@ -101,7 +101,7 @@ public class EnemyAi : MonoBehaviour
             else
             {
                 //Chase logic
-                //movementInput = movementDirectionSolver.GetDirectionToMove(steeringBehaviors, aiData);
+                movementInput = movementDirectionSolver.GetDirectionToMove(steeringBehaviors, aiData);
                 yield return new WaitForSeconds(aiUpdateDelay);
                 StartCoroutine(ChaseAndAttack());
             }

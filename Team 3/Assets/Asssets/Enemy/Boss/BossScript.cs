@@ -4,15 +4,40 @@ using UnityEngine;
 
 public class BossScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private BossAnimator agentAnimations;
+    private BossMover agentMover;
+
+    private Vector2 pointerInput, movementInput;
+
+    public Vector2 PointerInput { get => pointerInput; set => pointerInput = value; }
+    public Vector2 MovementInput { get => movementInput; set => movementInput = value; }
+
+    private void Update()
     {
-        
+        //pointerInput = GetPointerInput();
+        //movementInput = movement.action.ReadValue<Vector2>().normalized;
+
+        agentMover.MovementInput = MovementInput;
+        //weaponParent.PointerPosition = pointerInput;
+        AnimateCharacter();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PerformAttack()
     {
-        
+        //weaponParent.Attack();
+    }
+
+    private void Awake()
+    {
+        agentAnimations = GetComponentInChildren<BossAnimator>();
+        //weaponParent = GetComponentInChildren<WeaponParent>();
+        agentMover = GetComponent<BossMover>();
+    }
+
+    private void AnimateCharacter()
+    {
+        Vector2 lookDirection = pointerInput - (Vector2)transform.position;
+        agentAnimations.RotateToPointer(lookDirection);
+        agentAnimations.PlayAnimation(MovementInput);
     }
 }
