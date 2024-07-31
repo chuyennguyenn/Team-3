@@ -45,6 +45,13 @@ public class EnemyAi : MonoBehaviour
         {
             detector.Detect(aiData);
         }
+        float[] danger = new float[8];
+        float[] interest = new float[8];
+
+        foreach(SteeringBehavior behavior in steeringBehaviors)
+        {
+            (danger, interest) = behavior.GetSteering(danger, interest, aiData);
+        }
     }
 
     private void Update()
@@ -94,7 +101,7 @@ public class EnemyAi : MonoBehaviour
             else
             {
                 //Chase logic
-                movementInput = movementDirectionSolver.GetDirectionToMove(steeringBehaviors, aiData);
+                //movementInput = movementDirectionSolver.GetDirectionToMove(steeringBehaviors, aiData);
                 yield return new WaitForSeconds(aiUpdateDelay);
                 StartCoroutine(ChaseAndAttack());
             }

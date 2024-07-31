@@ -20,7 +20,7 @@ public class ObstacleDetector : Detector
         colliders = Physics2D.OverlapCircleAll(transform.position, detectionRadius, layerMask);
         aiData.obstacles= colliders;
     }
-
+    //for debugging
     private void OnDrawGizmos()
     {
         if (showGizmos == false)
