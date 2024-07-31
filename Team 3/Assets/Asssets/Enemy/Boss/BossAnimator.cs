@@ -11,7 +11,6 @@ public class BossAnimator : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         originalScale = transform.localScale;
-        animator.SetBool("isAlive", true);
 
     }
 
