@@ -97,6 +97,7 @@ public class EnemyAi : MonoBehaviour
                 OnAttackPressed?.Invoke();
                 yield return new WaitForSeconds(attackDelay);
                 StartCoroutine(ChaseAndAttack());
+                Debug.Log("Attack Coroutine");
             }
             else
             {

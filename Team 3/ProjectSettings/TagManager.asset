@@ -7,6 +7,8 @@ TagManager:
   - coin
   - Enemy
   - Obstacle
+  - bullet2
+  - Boss
   layers:
   - Default
   - TransparentFX

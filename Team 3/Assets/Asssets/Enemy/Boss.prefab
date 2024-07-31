@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6003436889888701947}
   - component: {fileID: 2332820427953524916}
   - component: {fileID: 1477547946676620297}
+  - component: {fileID: 1301407193853326005}
   - component: {fileID: 3097135205493063060}
   - component: {fileID: 9091279996321683957}
   - component: {fileID: 6752588494831791306}
@@ -19,7 +20,7 @@ GameObject:
   - component: {fileID: 1391368960334208786}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +121,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!70 &1301407193853326005
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658533176595407287}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.012953377, y: -0.2899147}
+  m_Size: {x: 0.16562691, y: 0.58710176}
+  m_Direction: 0
 --- !u!114 &3097135205493063060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +233,7 @@ MonoBehaviour:
   detectionDelay: 0.05
   aiUpdateDelay: 0.06
   attackDelay: 1
-  attackDistance: 0.5
+  attackDistance: 2
   OnAttackPressed:
     m_PersistentCalls:
       m_Calls:

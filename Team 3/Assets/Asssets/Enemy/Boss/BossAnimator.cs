@@ -11,6 +11,8 @@ public class BossAnimator : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         originalScale = transform.localScale;
+        animator.SetBool("isAlive", true);
+
     }
 
     public bool IsInState(string stateName)
@@ -18,17 +20,10 @@ public class BossAnimator : MonoBehaviour
         return animator.GetCurrentAnimatorStateInfo(0).IsName(stateName);
     }
 
-    public void SetEntrance(bool entrance)
+    public void SetEntrance(bool active)
     {
-        animator.SetBool("entrance", entrance);
+        animator.SetBool("entrance", active);
     }
-
-    public void SetMoving(bool isMoving)
-    {
-        animator.SetBool("isMoving", isMoving);
-    }
-
-
 
     public void RotateToPointer(Vector2 lookDirection)
     {
@@ -47,27 +42,30 @@ public class BossAnimator : MonoBehaviour
     public void PlayAnimation(Vector2 movementInput)
     {
         animator.SetBool("isMoving", movementInput.magnitude > 0);
+        Debug.Log("PlayAnimation: isMoving = " );
 
     }
 
     public void TriggerAttack(int attackType)
     {
+        animator.SetBool("isAttacking",true);
         switch (attackType)
-        {
+        {  
             case 1:
-                animator.SetTrigger("Hit1");
-                break;
-            case 2:
-                animator.SetTrigger("Hit2");
-                break;
-            case 3:
                 animator.SetTrigger("Hit3");
                 break;
-            case 4:
-                animator.SetTrigger("Spatk");
+            case 2:
+                animator.SetTrigger("Hit4");
                 break;
         }
+        Debug.Log("triggered atk");
     }
+    
+    public void EndAttack()
+    {
+        animator.SetBool("isAttacking", false);
+    }
+
 
     public void TriggerTakeHit()
     {
@@ -77,6 +75,8 @@ public class BossAnimator : MonoBehaviour
     public void TriggerFrozen()
     {
         animator.SetBool("Frozen", true);
+        animator.SetBool("isAlive", false);
+
     }
 
 }
