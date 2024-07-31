@@ -6,17 +6,18 @@ TagManager:
   tags:
   - coin
   - Enemy
-  - bullet1
+  - Obstacle
   - bullet2
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacle
   - Water
   - UI
   - Decorate
-  - 
+  - Player
   - 
   - 
   - 
