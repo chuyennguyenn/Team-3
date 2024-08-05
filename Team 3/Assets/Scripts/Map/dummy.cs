@@ -8,7 +8,7 @@ public class dummy : MonoBehaviour
     public float MS;
     private bool _isMoving = false;
     public float forced;
-    public static int health;
+    public int health;
     //public Rigidbody2D rb;
     // public bool isMoving { get{
     //     return _isMoving;
@@ -26,20 +26,7 @@ public class dummy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        health = 10;
 
-    }
-
-    void Awake()
-    {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
-
-        if (objs.Length > 1)
-        {
-            Destroy(this.gameObject);
-        }
-
-        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
@@ -48,15 +35,6 @@ public class dummy : MonoBehaviour
         spdX = Input.GetAxisRaw("Horizontal") * MS;
         spdY = Input.GetAxisRaw("Vertical") * MS;
         rb.velocity = new Vector2(spdX, spdY);
-        if (Input.GetKeyDown("u"))
-        {
-            Debug.Log("health is " + health);
-        }
-
-        if (Input.GetKeyDown("i"))
-        {
-            transform.position = new Vector2(105, 191);
-        }
     }
     // public void OnMove(InputAction.CallbackContext context){
     //     moveInput = context.ReadValue<Vector2>();
