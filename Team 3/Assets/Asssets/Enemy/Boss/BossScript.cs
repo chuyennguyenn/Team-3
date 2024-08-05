@@ -12,7 +12,7 @@ public class BossScript : MonoBehaviour
     public Vector2 PointerInput { get => pointerInput; set => pointerInput = value; }
     public Vector2 MovementInput { get => movementInput; set => movementInput = value; }
     private bool isAlive = true;
-    private float health = 100;
+    [SerializeField]float health,maxHealth = 100f;
 
     private void Update()
     {
