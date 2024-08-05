@@ -14,6 +14,8 @@ public class LevelMove_Ref : MonoBehaviour
         {
             print("switch");
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+            GameObject player = GameObject.FindWithTag("Player");
+            player.transform.position = new Vector2(82, 177);
         }
     }
 }
