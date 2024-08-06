@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class bossDoor : MonoBehaviour
 {
     public int sceneBuildIndex;
-    private static GameObject sampleInstance;
+
+    public static bool trigger = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,11 +15,11 @@ public class bossDoor : MonoBehaviour
         if (other.tag == "Player")
         {
             print("switch");
-            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
-            
-            GameObject spawnBoss = GameObject.Find("bossRoom");
-            GameObject player = GameObject.FindWithTag("Player");
-            player.transform.position = new Vector2(-67, 205);
+            //SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);       
+            //GameObject player = GameObject.FindWithTag("Player");
+            //player.transform.position = new Vector2(-67, 205);
+            levelLoader.load = true;
+            trigger = true;
         }
     }
 }
