@@ -862,7 +862,7 @@ GameObject:
   - component: {fileID: 438710371}
   - component: {fileID: 438710370}
   m_Layer: 5
-  m_Name: Button
+  m_Name: QuestTab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -875,16 +875,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438710368}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalScale: {x: 0.0020576133, y: 0.0020576133, z: 0.0020576133}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 813700047}
+  m_Father: {fileID: 1232465271}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -244.8, y: 257.7}
+  m_AnchoredPosition: {x: -0.5037079, y: 0.573}
   m_SizeDelta: {x: 58.34, y: 111.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &438710370
@@ -1845,7 +1845,6 @@ RectTransform:
   - {fileID: 822092733}
   - {fileID: 1903846329}
   - {fileID: 1232465271}
-  - {fileID: 438710369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3202,7 +3201,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -21.599998, z: -9719.999}
   m_LocalScale: {x: 485.99997, y: 485.99997, z: 485.99997}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 438710369}
   m_Father: {fileID: 813700047}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1236527806 stripped
