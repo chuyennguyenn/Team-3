@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - bullet2
   - Boss
+  - bullet1
   layers:
   - Default
   - TransparentFX

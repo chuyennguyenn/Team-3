@@ -6,13 +6,36 @@ public class BossScript : MonoBehaviour
 {
     private BossAnimator agentAnimations;
     private BossMover agentMover;
+    private Healthbar healthbar;
 
     private Vector2 pointerInput, movementInput;
 
     public Vector2 PointerInput { get => pointerInput; set => pointerInput = value; }
     public Vector2 MovementInput { get => movementInput; set => movementInput = value; }
     private bool isAlive = true;
-    [SerializeField]float health,maxHealth = 100f;
+    [SerializeField]float health,maxHealth = 500f;
+
+    private void Start()
+    {
+        health = maxHealth;
+        healthbar = FindObjectOfType<Healthbar>();
+        healthbar.SetMaxHealth(maxHealth);
+    }
+
+    public void UpdateHealth(float mod)
+    {
+        health += mod;
+        if(health > maxHealth)
+        {
+            health = maxHealth;
+        }else if (health <= maxHealth)
+        {
+            health = 0f;
+            Die();
+        }
+        healthbar.SetHealth(health);
+
+    }
 
     private void Update()
     {
@@ -52,11 +75,16 @@ public class BossScript : MonoBehaviour
         agentAnimations.TriggerTakeHit();
         // Reduce health or trigger damage effects
         health -= damage;
-            if (health <= 0)
-            {
-                Die(); // Or any method to handle boss death
-            }
-    }
+        if (health <= 0)
+        {
+            healthbar.SetHealth(health);
+            Die(); // Or any method to handle boss death
+        }
+        else
+        {
+            healthbar.SetHealth(health);
+        }
+       }
     
     public void Die() 
     {
@@ -87,11 +115,12 @@ public class BossScript : MonoBehaviour
     {
         if (collider.CompareTag("bullet2"))
         {
+            TakeDamage(500);
             Die(); // Trigger frozen state and set alive to false
         }
         else
         {
-            TakeDamage(1); // Handle regular hit
+            TakeDamage(2); // Handle regular hit
         }
     }
 }

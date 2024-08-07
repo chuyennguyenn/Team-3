@@ -37,5 +37,11 @@ public class Bullet2Control : MonoBehaviour
             other.gameObject.GetComponent<BossScript>().TakeDamage(dmg2); // Assuming BossControl has TakeDamage method
             Destroy(gameObject); // Destroy bullet on collision
         }
+        if (other.CompareTag("Enemy"))
+        {
+            // Apply damage or other effects
+            other.gameObject.GetComponent<EnemyController>().TakeDamage(dmg2); // Assuming BossControl has TakeDamage method
+            Destroy(gameObject); // Destroy bullet on collision
+        }
     }
 }
