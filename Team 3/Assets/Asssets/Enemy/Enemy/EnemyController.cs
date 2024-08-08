@@ -17,6 +17,12 @@ public class EnemyController : MonoBehaviour
 
     bool isAlive = true;
     bool isMoving = false;
+    //attack parameters
+    public float attackRange = 1f;
+    public float attackDamage = 1f;
+    public float attackCooldown = 2f;
+    private float lastAttackTime;
+    public float knockbackForce = 20f;
 
     private void Start()
     {
@@ -66,6 +72,8 @@ public class EnemyController : MonoBehaviour
             healthbar.SetHealth(_health);
         }
     }
+
+
 
     private void OnTriggerEnter2D(Collider2D other)
         {
@@ -161,9 +169,21 @@ public class EnemyController : MonoBehaviour
             // If there is a target, move towards it
             if (target != null)
             {
-            detemisticMover(target.position);
-            animator.SetBool("isMoving", true);// run at enemy
+            float distanceToTarget = Vector2.Distance(transform.position, target.position);
+            if (distanceToTarget <= attackRange)
+            {
+                if (Time.time >= lastAttackTime + attackCooldown)
+                {
+                    Attack();
+                }
+            }
+            else
+            {
 
+
+                detemisticMover(target.position);
+                animator.SetBool("isMoving", true);// run at enemy
+            }
         }
         else
             {
@@ -174,4 +194,19 @@ public class EnemyController : MonoBehaviour
 
         }
 
-  }
+    private void Attack()
+    {
+        lastAttackTime = Time.time;
+        animator.SetTrigger("hit");
+        if (target != null && Vector2.Distance(transform.position, target.position) <= attackRange)
+        {
+            // Assuming the player has a PlayerHP script
+            PlayerHP playerHP = target.GetComponent<PlayerHP>();
+            if (playerHP != null)
+            {
+                playerHP.takeDMG(attackDamage, transform.position, knockbackForce);
+            }
+        }
+    }
+
+}
