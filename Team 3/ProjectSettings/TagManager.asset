@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - bullet1
   - bullet2
+  - puzzle
   layers:
   - Default
   - TransparentFX
