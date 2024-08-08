@@ -5,15 +5,24 @@ using UnityEngine;
 public class PlayerDMGed : MonoBehaviour
 {
     public PlayerHP pHP;
+    // public Enemy enemy;
     public float dmg;
     public float heal;
     // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private float _invincibilityDuration;
+
+    private Invincibility _invincibilityController;
+
+    private void Awake()
     {
-        
+        _invincibilityController = GetComponent<Invincibility>();    
     }
 
-    // Update is called once per frame
+    public void StartInvincibility()
+    {
+        _invincibilityController.StartInvincibility(_invincibilityDuration);
+    }
     void Update()
     {   
         // damaging player
@@ -25,4 +34,5 @@ public class PlayerDMGed : MonoBehaviour
             pHP.HP += heal;
         }
     }
+
 }

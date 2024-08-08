@@ -11,8 +11,8 @@ public class PlayerCtrlV2 : MonoBehaviour
     
     public coinMNG cm;
     public ShootingV2 shooting;
-    private Animator animator;
-    private bool isFacingRight;
+    public Animator animator;
+    public bool isFacingRight;
     // Start is called before the first frame update
     void Start()
     {
