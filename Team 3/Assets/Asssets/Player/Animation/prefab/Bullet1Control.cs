@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet1Control : MonoBehaviour
 {
     private Camera mainCam;
+    // public Enemy enemy;
     private Vector3 mousePos;
     private Rigidbody2D rb;
     public float force1;
@@ -23,8 +24,10 @@ public class Bullet1Control : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    // void OnTriggerEnter2D(Collider2D other){
+    //     if(other.gameObject.CompareTag("enemy")){
+    //          enemy.health -= dmg1;
+    //     }
+    // }
 }
