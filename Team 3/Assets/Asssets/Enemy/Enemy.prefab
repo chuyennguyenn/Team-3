@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc089b5a6518ba468cbe584b3fc7c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 4229394188374845146}
 --- !u!1 &4778264591844925972
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +303,6 @@ GameObject:
   - component: {fileID: 6039255859713786099}
   - component: {fileID: 8444648003529253508}
   - component: {fileID: 382206289029118980}
-  - component: {fileID: 5210565606266193288}
   - component: {fileID: 220675304948401020}
   m_Layer: 0
   m_Name: Enemy
@@ -478,19 +477,6 @@ MonoBehaviour:
   speed: 3
   _health: 10
   _maxHealth: 10
---- !u!114 &5210565606266193288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7557435698429955499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcc089b5a6518ba468cbe584b3fc7c7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 4229394188374845146}
 --- !u!114 &220675304948401020
 MonoBehaviour:
   m_ObjectHideFlags: 0
