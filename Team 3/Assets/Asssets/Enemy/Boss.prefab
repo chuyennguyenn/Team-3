@@ -273,8 +273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8f250d815ba81544b1b2faa4d6b2464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
+  health: 1000
+  maxHealth: 1000
 --- !u!114 &9091279996321683957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   aiData: {fileID: 4566788506448103963}
   detectionDelay: 0.05
   aiUpdateDelay: 0.06
-  attackDelay: 1
+  attackDelay: 2
   attackDistance: 2
   OnAttackPressed:
     m_PersistentCalls:

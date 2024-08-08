@@ -13,7 +13,9 @@ public class BossScript : MonoBehaviour
     public Vector2 PointerInput { get => pointerInput; set => pointerInput = value; }
     public Vector2 MovementInput { get => movementInput; set => movementInput = value; }
     private bool isAlive = true;
-    [SerializeField]float health,maxHealth = 500f;
+    [SerializeField]float health,maxHealth = 1000f;
+
+    private Transform playerTransform;
 
     private void Start()
     {
@@ -58,8 +60,29 @@ public class BossScript : MonoBehaviour
     {
 
         // Randomly choose an attack
-        int attackType = Random.Range(1, 3); // Assuming 1, 2, 3, spatk as different attacks
-        agentAnimations.TriggerAttack(attackType);
+        //int attackType = Random.Range(1, 3); // Assuming 1, 2, 3, spatk as different attacks
+        // Get the player's position
+        Vector2 playerPosition = playerTransform.position;
+        Vector2 directionToPlayer = playerPosition - (Vector2)transform.position;
+        directionToPlayer.Normalize();
+        int attackType;
+        if (Mathf.Abs(directionToPlayer.y) > Mathf.Abs(directionToPlayer.x))
+        {
+
+            // Closer to up or down, so play Hit4
+            attackType = 2;
+            agentAnimations.TriggerAttack(attackType);
+            Debug.Log("PerformAttack: Triggered attack of type spatk");
+        }
+        else
+        {
+            // Closer to left or right, so play Hit3
+            attackType = 1;
+            agentAnimations.TriggerAttack(attackType);
+            Debug.Log("PerformAttack: Triggered attack of type punch slam");
+        }
+
+
         Debug.Log("PerformAttack: Triggered attack of type " + attackType);
 
     }
@@ -68,6 +91,16 @@ public class BossScript : MonoBehaviour
     {
         agentAnimations = GetComponentInChildren<BossAnimator>();
         agentMover = GetComponent<BossMover>();
+
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            Debug.Log("player transformed");
+            playerTransform = playerObject.transform;
+        }
+        else {
+            Debug.Log("player not transformed");
+        }
     }
     
     public void TakeDamage(float damage)
@@ -115,7 +148,7 @@ public class BossScript : MonoBehaviour
     {
         if (collider.CompareTag("bullet2"))
         {
-            TakeDamage(500);
+            TakeDamage(1001);
             Die(); // Trigger frozen state and set alive to false
         }
         else
