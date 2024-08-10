@@ -8,16 +8,16 @@ TagManager:
   - Enemy
   - bullet1
   - bullet2
-  - Boss
+  - puzzle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Obstacle
+  - 
   - Water
   - UI
   - Decorate
-  - Player
+  - 
   - 
   - 
   - 
