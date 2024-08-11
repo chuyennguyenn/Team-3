@@ -11,6 +11,10 @@ public class sandMan : MonoBehaviour
 
     public static bool looted = false;
 
+    public float moveSpeed = 1.0f;
+
+    public DetectionZone entity;
+
     void Start()
     {
         trig = GameObject.Find("triggerPlace");
@@ -23,6 +27,15 @@ public class sandMan : MonoBehaviour
 
     void Update()
     {
+        if (entity.zones.Count > 0)
+        {
+            Debug.Log("Hey");
+
+            Vector2 direction  = (entity.zones[0].transform.position - transform.position).normalized;
+
+            thisBody.AddForce(direction * moveSpeed * Time.deltaTime);
+        }
+
         if (trig.GetComponent<triggerPlace>().reset == true)
         {
             this.transform.position = startPos;
@@ -30,15 +43,22 @@ public class sandMan : MonoBehaviour
 
         if (looted == true)
         {
+            moveSpeed = 0;
             Debug.Log("out");
             animator.SetBool("isOut", true);
             Destroy(gameObject, 2);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        
+        if (other.gameObject.CompareTag("bullet1"))
+        {
+            Debug.Log("bullet1");
+            moveSpeed = 0;
+            thisBody.mass = 20;
+            Destroy(other.gameObject);
+        }
     }
 
     //IEnumerator destroyMe()
