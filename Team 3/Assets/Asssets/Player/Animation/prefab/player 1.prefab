@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4081519387862876253}
   - component: {fileID: 9180989153981445087}
   - component: {fileID: 160509790487866367}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HPbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 4257475464943843036}
   - component: {fileID: 6619768425250335509}
   - component: {fileID: 6727704591389821711}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6074474229091304726}
   - component: {fileID: 7732116353586558489}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameSys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 1065971536388131955}
   - component: {fileID: 7528323786844554449}
   - component: {fileID: 4240295866646133155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3342161386095868060}
@@ -363,7 +363,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.011360696
+  m_Mass: 1.1360697
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dddb77d4e8fd19489cf9e79f9c1c967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MS: 10
+  MS: 50
   cm: {fileID: 7732116353586558489}
   shooting: {fileID: 6758777319399311723}
   animator: {fileID: 1257478836241989499}
@@ -470,6 +470,8 @@ MonoBehaviour:
   animator: {fileID: 1257478836241989499}
   player: {fileID: 5600606614970175590}
   KOscreen: {fileID: 0}
+  knockbackDuration: 0.5
+  rb2d: {fileID: 0}
   OnDied:
     m_PersistentCalls:
       m_Calls:
@@ -562,7 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987048995491934336}
   - component: {fileID: 3312585961522317240}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bulletTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,7 +648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3342161386095868060}
   - component: {fileID: 6758777319399311723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rotatePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +686,7 @@ MonoBehaviour:
   bullet1: {fileID: 6988246106946547237, guid: 00aa04e2249e6b4428ded49076511c63, type: 3}
   bullet2: {fileID: 6988246106946547237, guid: f1f7e1e9e71556741865e3ce0d2aca54, type: 3}
   bulletTransform: {fileID: 1987048995491934336}
-  canFire: 0
+  canFire: 1
   timeBetweenFiring: 0.5
   animator: {fileID: 1257478836241989499}
   player: {fileID: 5600606614970175590}
@@ -701,7 +703,7 @@ GameObject:
   - component: {fileID: 896535524516057010}
   - component: {fileID: 8401500836395209258}
   - component: {fileID: 6925946408590968318}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas-HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +805,7 @@ GameObject:
   - component: {fileID: 8232599045289355629}
   - component: {fileID: 6729955372705069446}
   - component: {fileID: 4821762126193484906}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
