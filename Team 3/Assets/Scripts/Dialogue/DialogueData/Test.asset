@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - "This is line 1\t"
-  - This is line 2
+  - ok
+  - ok2
   responses:
   - responseText: choice 1
     dialogueObject: {fileID: 11400000, guid: 461909f7da43f554db93c103a1ca4c54, type: 2}

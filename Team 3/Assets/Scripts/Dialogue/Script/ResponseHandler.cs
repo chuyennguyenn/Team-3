@@ -27,6 +27,7 @@ public class ResponseHandler : MonoBehaviour
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
+            Debug.Log("create");
             responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
 
             tempResponseButton.Add(responseButton);
@@ -37,6 +38,7 @@ public class ResponseHandler : MonoBehaviour
 
         responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);
         responseBox.gameObject.SetActive(true);
+        
     }
 
     private void OnPickedResponse(Response response)
@@ -51,6 +53,7 @@ public class ResponseHandler : MonoBehaviour
         tempResponseButton.Clear();
 
         dialogueUI.ShowDialogue(response.DialogueObject);
+        Debug.Log("press");
     }
 
 }

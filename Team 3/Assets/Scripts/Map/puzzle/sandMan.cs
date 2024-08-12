@@ -15,6 +15,8 @@ public class sandMan : MonoBehaviour
 
     public DetectionZone entity;
 
+    caveEntrance caveEntrance;
+
     void Start()
     {
         trig = GameObject.Find("triggerPlace");
@@ -47,6 +49,11 @@ public class sandMan : MonoBehaviour
             Debug.Log("out");
             animator.SetBool("isOut", true);
             Destroy(gameObject, 2);
+        }
+
+        if (caveEntrance.reset == true)
+        {
+            this.transform.position = startPos;
         }
     }
 
