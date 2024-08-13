@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
-using System;
 public class PlayerHP : MonoBehaviour
 {
     public float HP;
@@ -13,7 +12,7 @@ public class PlayerHP : MonoBehaviour
     public float timeToExit;
     public Animator animator;
     public PlayerCtrlV2 player;
-    public GameMangerScript KOscreen;
+    public GameOverScreen KOscreen;
 
     private bool isKnockedBack;
     private float knockbackTimer;
@@ -24,7 +23,6 @@ public class PlayerHP : MonoBehaviour
     private Rigidbody2D rb2d;
 
     // Start is called before the first frame update
-    public static event Action OnPlayerDeath;
     void Start()
     {
         HP = maxHP;
@@ -69,13 +67,11 @@ public class PlayerHP : MonoBehaviour
 
         if (HP <= 0){
             HP = 0;
-            Debug.Log("you are dead");
             OnDied.Invoke();
-            // OnPlayerDeath?.
             animator.SetBool("isDead2",true);
             timer += Time.deltaTime;
             if(timer > timeToExit){
-                KOscreen.gameOver();
+                KOscreen.Setup();
             }
         }
         
