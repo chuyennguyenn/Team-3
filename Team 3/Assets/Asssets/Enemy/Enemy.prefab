@@ -589,10 +589,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  _health: 10
-  _maxHealth: 10
+  _health: 20
+  _maxHealth: 20
   attackRange: 1
-  attackDamage: 5
+  attackDamage: 10
   attackCooldown: 2
   knockbackForce: 100
 --- !u!114 &220675304948401020

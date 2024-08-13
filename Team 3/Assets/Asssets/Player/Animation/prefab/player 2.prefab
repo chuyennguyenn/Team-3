@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 2477181652808309349}
   - component: {fileID: 400043464788291664}
   - component: {fileID: 4798558382806454121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: player 2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 2.5561569
+  m_Mass: 1.6359401
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -954,7 +954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dddb77d4e8fd19489cf9e79f9c1c967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MS: 10
+  MS: 100
   cm: {fileID: 6460060041791029818}
   shooting: {fileID: 5384398358162438135}
   animator: {fileID: 326907855923933502}
