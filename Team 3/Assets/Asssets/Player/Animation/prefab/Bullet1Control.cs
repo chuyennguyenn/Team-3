@@ -40,9 +40,21 @@ public class Bullet1Control : MonoBehaviour
     // }
     // Update is called once per frame
 
-    // void OnTriggerEnter2D(Collider2D other){
-    //     if(other.gameObject.CompareTag("enemy")){
-    //          enemy.health -= dmg1;
-    //     }
-    // }
+    void OnTriggerEnter2D(Collider2D other){
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            // Get the EnemyController component from the enemy
+            EnemyController enemyController = other.GetComponent<EnemyController>();
+
+            // Check if the enemy has an EnemyController component
+            if (enemyController != null)
+            {
+                // Apply damage to the enemy
+                enemyController.TakeDamage(dmg1);
+            }
+
+            // Destroy the bullet after it hits the enemy
+            Destroy(gameObject);
+        }
+    }
 }
