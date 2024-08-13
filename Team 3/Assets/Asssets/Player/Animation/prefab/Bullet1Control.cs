@@ -43,18 +43,37 @@ public class Bullet1Control : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if (other.gameObject.CompareTag("Enemy"))
         {
-            // Get the EnemyController component from the enemy
-            EnemyController enemyController = other.GetComponent<EnemyController>();
-
-            // Check if the enemy has an EnemyController component
-            if (enemyController != null)
+            if (other is CapsuleCollider2D)
             {
-                // Apply damage to the enemy
-                enemyController.TakeDamage(dmg1);
+                // Get the EnemyController component from the enemy
+                EnemyController enemyController = other.GetComponent<EnemyController>();
+
+                // Check if the enemy has an EnemyController component
+                if (enemyController != null)
+                {
+                    // Apply damage to the enemy
+                    enemyController.TakeDamage(dmg1);
+                }
+
+                // Destroy the bullet after it hits the enemy
+                Destroy(gameObject);
+            }
+        }
+        else if (other.gameObject.CompareTag("Boss"))
+        {
+            // Get the BossScript component from the boss
+            BossScript boss = other.GetComponent<BossScript>();
+
+            // Check if the boss has a BossScript component
+            if (boss != null)
+            {
+                // Apply 10 damage to the boss
+                boss.TakeDamage(10);
             }
 
-            // Destroy the bullet after it hits the enemy
+            // Destroy the bullet after it hits the boss
             Destroy(gameObject);
         }
+
     }
 }

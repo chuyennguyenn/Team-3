@@ -26,4 +26,26 @@ public class Bullet2Control : MonoBehaviour
     void Update(){
         Destroy(gameObject,1);
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            if (other is CapsuleCollider2D)
+            {
+                // Get the EnemyController component from the enemy
+                EnemyController enemyController = other.GetComponent<EnemyController>();
+
+                // Check if the enemy has an EnemyController component
+                if (enemyController != null)
+                {
+                    // Apply damage to the enemy
+                    enemyController.TakeDamage(dmg2);
+                }
+
+                // Destroy the bullet after it hits the enemy
+                Destroy(gameObject);
+            }
+        }
+    }
 }

@@ -66,7 +66,7 @@ public class BossScript : MonoBehaviour
         Vector2 directionToPlayer = playerPosition - (Vector2)transform.position;
         directionToPlayer.Normalize();
         int attackType;
-        if (Mathf.Abs(directionToPlayer.y) > Mathf.Abs(directionToPlayer.x))
+        if (Mathf.Abs(directionToPlayer.y) > Mathf.Abs(directionToPlayer.x) )
         {
 
             // Closer to up or down, so play Hit4
@@ -81,6 +81,15 @@ public class BossScript : MonoBehaviour
             agentAnimations.TriggerAttack(attackType);
             Debug.Log("PerformAttack: Triggered attack of type punch slam");
         }
+
+        // Apply damage to the player
+        PlayerHP playerHP = playerTransform.GetComponent<PlayerHP>();
+        if (playerHP != null)
+        {
+            playerHP.takeDMG(30, transform.position, 50f); // 50 damage and knockback force of 5f
+            Debug.Log("PerformAttack: Dealt 50 damage to the player");
+        }
+
 
 
         Debug.Log("PerformAttack: Triggered attack of type " + attackType);

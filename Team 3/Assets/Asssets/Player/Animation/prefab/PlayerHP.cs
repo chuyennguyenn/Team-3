@@ -83,12 +83,7 @@ public class PlayerHP : MonoBehaviour
     private void ApplyKnockback(Vector2 attackerPosition, float knockbackForce)
     {
         Debug.Log("ApplyKnockback called with attackerPosition: " + attackerPosition + ", knockbackForce: " + knockbackForce);
-        isKnockedBack = true;
-        knockbackTimer = knockbackDuration;
-        Vector3 attackerPosition3D = new Vector3(attackerPosition.x, attackerPosition.y, 0f);
-        knockbackDirection = (transform.position - attackerPosition3D).normalized;
-        rb2d.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
-
+        player.ApplyKnockback(attackerPosition, knockbackForce);
     }
 
     public void healing (float heal){

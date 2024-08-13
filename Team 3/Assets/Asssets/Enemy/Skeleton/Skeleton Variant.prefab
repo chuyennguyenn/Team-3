@@ -53,8 +53,20 @@ PrefabInstance:
       value: Skeleton Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5793202719323828217, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
+      propertyPath: _health
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793202719323828217, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
+      propertyPath: _maxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793202719323828217, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
       propertyPath: attackDamage
-      value: 5
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517907622341843557, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -591,7 +591,7 @@ MonoBehaviour:
   speed: 3
   _health: 20
   _maxHealth: 20
-  attackRange: 1
+  attackRange: 2
   attackDamage: 10
   attackCooldown: 2
   knockbackForce: 100
