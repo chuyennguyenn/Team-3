@@ -1288,7 +1288,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8062030462346113814}
@@ -1363,7 +1363,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.011360696
+  m_Mass: 4.5442786
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -1469,7 +1469,9 @@ MonoBehaviour:
   timeToExit: 3
   animator: {fileID: 7192157344574147106}
   player: {fileID: 7605283662048374762}
-  GameOverScreen: {fileID: 4834483022170187759}
+  KOscreen: {fileID: 0}
+  knockbackDuration: 0.5
+  rb2d: {fileID: 0}
   OnDied:
     m_PersistentCalls:
       m_Calls:
