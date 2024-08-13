@@ -58,9 +58,15 @@ public class ShootingV2 : MonoBehaviour
             animator.SetTrigger("ATK");
             canFire = false;
             if(bulletType == 1)
-                {Instantiate(bullet1, bulletTransform.position, Quaternion.identity);}
+                {
+                Instantiate(bullet1, bulletTransform.position, Quaternion.identity);
+                // Destroy(bullet1,1);
+                }
+                
             if(bulletType == 2)
                 {Instantiate(bullet2, bulletTransform.position, Quaternion.identity);}
+
+            
         }
     }
     // public void atk(){

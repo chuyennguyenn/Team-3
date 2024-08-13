@@ -10,6 +10,8 @@ public class Bullet1Control : MonoBehaviour
     private Rigidbody2D rb;
     public float force1;
     public float dmg1;
+    private float timer;
+    public float timeExist;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,21 @@ public class Bullet1Control : MonoBehaviour
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force1;
         float rot = Mathf.Atan2(rotation.y , rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0,0,rot + 90);
+
+        
     }
 
+
+    void Update(){
+        Destroy(gameObject,2);
+    }
+    // void Update(){
+    //     timer += Time.deltaTime;
+    //         if(timer > timeExist){
+    //             Destroy(rb);
+    //             timer =0;
+    //         }
+    // }
     // Update is called once per frame
 
     // void OnTriggerEnter2D(Collider2D other){
