@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame() 
     {
-        SceneManager.LoadScene("TestPotionMenu");
+        SceneManager.LoadScene("Map");
     }
 
     public void QuitGame() 
