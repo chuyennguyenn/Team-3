@@ -1,4 +1,4 @@
 public interface IInteractable
 {
-    void Interact(Play player);
+    void Interact(PlayerCtrlV2 player);
 }
