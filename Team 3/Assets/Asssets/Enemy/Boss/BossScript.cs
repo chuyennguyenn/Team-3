@@ -13,7 +13,7 @@ public class BossScript : MonoBehaviour
     public Vector2 PointerInput { get => pointerInput; set => pointerInput = value; }
     public Vector2 MovementInput { get => movementInput; set => movementInput = value; }
     private bool isAlive = true;
-    [SerializeField]float health,maxHealth = 1000f;
+    [SerializeField]public static float health,maxHealth = 1000f;
 
     private Transform playerTransform;
 

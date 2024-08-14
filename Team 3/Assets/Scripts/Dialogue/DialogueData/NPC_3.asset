@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56763a8b4232bf4b99998b81e4a3c38, type: 3}
   m_Name: NPC_3
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - 'Guard: Welcome to our town...'
+  - 'Gaurd: Huh, You are not from here'
+  - 'Guard: No matter, just remember, don''t cause trouble or I''ll kick you out'
+  - 'Merrick: Got it'
   responses: []

@@ -19,6 +19,12 @@ public class PlayerCtrlV2 : MonoBehaviour
     public float knockbackDuration = 0.5f; // Adjust as needed
     private Vector2 knockbackDirection;
 
+    [SerializeField] private DialogueUI dialogueUI;
+
+    public DialogueUI DialogueUI => dialogueUI;
+
+    public IInteractable Interactable { get; set; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +34,34 @@ public class PlayerCtrlV2 : MonoBehaviour
         
     }
 
+    void Awake()
+    {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
+
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {
+        if (dialogueUI.isOpen)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (Interactable != null)
+            {
+                Interactable.Interact(this);
+            }
+        }
+
         if (!isKnockedBack)
         {
             spdX = Input.GetAxisRaw("Horizontal") * MS;

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56763a8b4232bf4b99998b81e4a3c38, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Boss: You are a strong alchemist, young man
+
+'
+  - 'Boss: To be that strong your master must be godric
+
+'
+  - 'Boss: He taught me all about rock alchemy'
+  - 'Boss: He was a good man, but the debt he put me in was unfair, the collectors
+    forced me into hiding in this miserable heat'
+  - 'Boss: THEY MUST CROSS A DESERT FOR ME'
+  - 'Merrick: I''m in the same position as you except for the collectors. Why did
+    you resort to this?
+
+'
+  - 'Boss: The world is unfair so I MUST BE UNFAIR'
+  - "Merrick: Ah now I see, you could\u2019ve taken any other path but you run from
+    your problems,"
+  - 'Merrick: all their trade has slowed down, do you know that?'
+  - 'Boss: A small price for freedom'
+  - 'Merrick: My master would have you clean the floors for days, and you know he
+    would want the best for you'
+  - 'Merrick: Is your best truly hiding in a desert?'
+  - "Boss: You\u2019re right\u2026."
+  - 'Boss: My master trained me to be adaptable and here I am rigid and inflexible
+    like the rocks that covered me'
+  - 'Boss: I will leave this town, and keep running from the collectors until I have
+    enough coins. Sort of like yourself. Now let me be.
+
+'
+  - 'Merrick: Alright
+
+'
+  responses: []
