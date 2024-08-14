@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2079736321042548130, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.51
+      value: 82.222725
       objectReference: {fileID: 0}
     - target: {fileID: 2079736321042548130, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.48
+      value: 182.04147
       objectReference: {fileID: 0}
     - target: {fileID: 2079736321042548130, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5793202719323828217, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
       propertyPath: attackDamage
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7517907622341843557, guid: 4d99f67718423c94f9529313bccd502d, type: 3}
       propertyPath: m_IsTrigger
