@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 public class PlayerHP : MonoBehaviour
 {
     public float HP;
@@ -12,7 +13,8 @@ public class PlayerHP : MonoBehaviour
     public float timeToExit;
     public Animator animator;
     public PlayerCtrlV2 player;
-    public GameOverScreen KOscreen;
+    public GameMangerScript KOscreen;
+    public GameObject GameOverUI;
 
     private bool isKnockedBack;
     private float knockbackTimer;
@@ -63,16 +65,15 @@ public class PlayerHP : MonoBehaviour
             return;
         }
 
-        ApplyKnockback(attackerPosition, knockbackForce);
+        // ApplyKnockback(attackerPosition, knockbackForce);
 
         if (HP <= 0){
             HP = 0;
             OnDied.Invoke();
+            GameOverUI.SetActive(true);
             animator.SetBool("isDead2",true);
-            timer += Time.deltaTime;
-            if(timer > timeToExit){
-                KOscreen.Setup();
-            }
+            
+            
         }
         
         else{

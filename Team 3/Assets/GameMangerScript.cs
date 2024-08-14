@@ -16,6 +16,7 @@ public class GameMangerScript : MonoBehaviour
         
     }
     public void gameOver(){
+        Debug.Log("GAME OVER");
         GameOverUI.SetActive(true);
     }
     public void restart(){
@@ -23,7 +24,7 @@ public class GameMangerScript : MonoBehaviour
         Debug.Log("RS");
     }
     public void menu(){
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("TitleScreen");
         Debug.Log("MM");
     }
     public void quit(){
