@@ -9,6 +9,7 @@ TagManager:
   - bullet1
   - bullet2
   - puzzle
+  - audio
   layers:
   - Default
   - TransparentFX

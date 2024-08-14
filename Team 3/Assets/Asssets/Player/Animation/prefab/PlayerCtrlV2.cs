@@ -13,6 +13,10 @@ public class PlayerCtrlV2 : MonoBehaviour
     public ShootingV2 shooting;
     public Animator animator;
     public bool isFacingRight;
+
+    [SerializeField] private DialogueUI dialogueUI;
+    public DialogueUI DialogueUI => dialogueUI;
+    public IInteractable Interactable { get; set; }
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,18 @@ public class PlayerCtrlV2 : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         
+    }
+
+    void Awake()
+    {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
+
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
@@ -43,7 +59,20 @@ public class PlayerCtrlV2 : MonoBehaviour
         }
         // if(shooting.canFire)
         //     {animator.SetTrigger("ATK");}
-        
+
+        if (dialogueUI.isOpen)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (Interactable != null)
+            {
+                Interactable.Interact(this);
+            }
+        }
+
     }   
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.CompareTag("coin")){
