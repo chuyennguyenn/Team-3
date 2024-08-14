@@ -23,16 +23,5 @@ public class PlayerDMGed : MonoBehaviour
     {
         _invincibilityController.StartInvincibility(_invincibilityDuration);
     }
-    void Update()
-    {   
-        // damaging player
-        if(Input.GetKeyDown("g")){
-            pHP.HP -= dmg;
-        }
-        //healing player
-        if(Input.GetKeyDown("h")){
-            pHP.HP += heal;
-        }
-    }
 
 }

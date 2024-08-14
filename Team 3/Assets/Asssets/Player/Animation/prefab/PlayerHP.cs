@@ -6,12 +6,12 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 public class PlayerHP : MonoBehaviour
 {
-    public float HP;
-    public float maxHP;
+    public static float HP;
+    public static float maxHP = 100;
     public Image HPbar;
     private float timer;
     public float timeToExit;
-    public Animator animator;
+    public static Animator animator;
     public PlayerCtrlV2 player;
 
     public GameObject GameOverUI;
@@ -23,6 +23,7 @@ public class PlayerHP : MonoBehaviour
 
     [SerializeField] 
     private Rigidbody2D rb2d;
+    PlayerCtrlV2 PlayerCtrl;
 
     // Start is called before the first frame update
     void Start()
@@ -69,9 +70,10 @@ public class PlayerHP : MonoBehaviour
 
         if (HP <= 0){
             HP = 0;
-            OnDied.Invoke();
+            //OnDied.Invoke();
             GameOverUI.SetActive(true);
             animator.SetBool("isDead2",true);
+            PlayerCtrlV2.MS = 0;
             
             
         }
@@ -97,7 +99,7 @@ public class PlayerHP : MonoBehaviour
 
     public bool IsInvincible { get; set; }
 
-    public UnityEvent OnDied;
+    //public UnityEvent OnDied;
 
     public UnityEvent OnDamaged;
 }
