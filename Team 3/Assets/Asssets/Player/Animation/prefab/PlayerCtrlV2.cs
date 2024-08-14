@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCtrlV2 : MonoBehaviour
 {
-    public float MS;
+    public static float MS = 20;
     float spdX, spdY;
     private float Move;
     private Rigidbody2D rb;

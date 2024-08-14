@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 public class GameMangerScript : MonoBehaviour
 {
     public GameObject GameOverUI;
+
+    public PlayerHP PlayerHP;
+
+    public PlayerCtrlV2 PlayerCtrlV2;
     void Start()
     {
         
@@ -21,7 +25,11 @@ public class GameMangerScript : MonoBehaviour
     }
     public void restart(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        PlayerHP.HP = PlayerHP.maxHP;
         Debug.Log("RS");
+        GameOverUI.SetActive(false);
+        PlayerHP.animator.SetBool("isDead", false);
+        PlayerCtrlV2.MS = 20;
     }
     public void menu(){
         SceneManager.LoadScene("TitleScreen");
