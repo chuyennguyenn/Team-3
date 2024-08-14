@@ -954,11 +954,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dddb77d4e8fd19489cf9e79f9c1c967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MS: 100
+  MS: 20
   cm: {fileID: 6460060041791029818}
   shooting: {fileID: 5384398358162438135}
   animator: {fileID: 326907855923933502}
   isFacingRight: 0
+  knockbackDuration: 0.5
 --- !u!114 &2477181652808309349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,7 +980,7 @@ MonoBehaviour:
   player: {fileID: 1254235610254781444}
   KOscreen: {fileID: 0}
   knockbackDuration: 0.5
-  rb2d: {fileID: 0}
+  rb2d: {fileID: 8592320498016307182}
   OnDied:
     m_PersistentCalls:
       m_Calls:
