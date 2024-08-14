@@ -960,6 +960,7 @@ MonoBehaviour:
   animator: {fileID: 326907855923933502}
   isFacingRight: 0
   knockbackDuration: 0.5
+  dialogueUI: {fileID: 0}
 --- !u!114 &2477181652808309349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -978,7 +979,7 @@ MonoBehaviour:
   timeToExit: 3
   animator: {fileID: 326907855923933502}
   player: {fileID: 1254235610254781444}
-  KOscreen: {fileID: 0}
+  GameOverUI: {fileID: 8829459988609259823}
   knockbackDuration: 0.5
   rb2d: {fileID: 8592320498016307182}
   OnDied:

@@ -13,7 +13,7 @@ public class PlayerHP : MonoBehaviour
     public float timeToExit;
     public Animator animator;
     public PlayerCtrlV2 player;
-    public GameMangerScript KOscreen;
+
     public GameObject GameOverUI;
 
     private bool isKnockedBack;
