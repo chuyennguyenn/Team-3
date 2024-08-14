@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: NPC_7
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Sleepy man: Can I go home '
+  - 'Sleepy man: Can I go home now'
   responses: []

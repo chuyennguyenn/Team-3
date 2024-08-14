@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56763a8b4232bf4b99998b81e4a3c38, type: 3}
   m_Name: NPC_8_9
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - 'Young girl: You look weird, Mister'
   responses: []
