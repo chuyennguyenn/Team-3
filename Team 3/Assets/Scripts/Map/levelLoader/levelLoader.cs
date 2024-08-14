@@ -39,14 +39,14 @@ public class levelLoader : MonoBehaviour
             if (LevelMove_Ref.trigger == true) //to dungeon 
             {
                 GameObject player = GameObject.FindWithTag("Player");
-                player.transform.position = new Vector2(164, 351);
+                player.transform.position = new Vector2(82, 177);
                 LevelMove_Ref.trigger = false;
             }
 
             if (bossRoomDoor.trigger == true) //map to dungeon via boss-room's door
             {
                 GameObject player = GameObject.FindWithTag("Player");
-                player.transform.position = new Vector2(184, 437);
+                player.transform.position = new Vector2(85, 220);
                 bossRoomDoor.trigger = false;
             }
         }

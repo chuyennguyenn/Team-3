@@ -6,14 +6,14 @@ public class DialogueActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] private DialogueObject DialogueObject;
 
-    public void Interact(PlayerCtrlV2 player)
+    public void Interact(Play player)
     {
         player.DialogueUI.ShowDialogue(DialogueObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerCtrlV2 player))
+        if (collision.CompareTag("Player") && collision.TryGetComponent(out Play player))
         {
             player.Interactable = this;
         }
@@ -21,7 +21,7 @@ public class DialogueActivator : MonoBehaviour, IInteractable
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerCtrlV2 player))
+        if (collision.CompareTag("Player") && collision.TryGetComponent(out Play player))
         {
             if (player.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this) {
                 player.Interactable = null;

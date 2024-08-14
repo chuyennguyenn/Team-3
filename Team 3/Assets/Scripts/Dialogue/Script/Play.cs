@@ -37,7 +37,7 @@ public class Play : MonoBehaviour
         {
             if (Interactable != null)
             {
-                //Interactable.Interact(this);
+                Interactable.Interact(this);
             }
         }
     }
