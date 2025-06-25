@@ -1,0 +1,1544 @@
+fileFormatVersion: 2
+guid: 6dea148b4cc73734db5d2cea48ef0555
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 43
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60bdadd6faf7d48b78310f507185a5
+      internalID: 58594431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf8d11092f1aeb49ac085ea17644d07
+      internalID: -1977674764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9e6e47612d83f4da82a4f6ad0c8dab
+      internalID: 998277205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde1c851d66e2e04aad799281ed13edd
+      internalID: -702490505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a30a79bd27aa34699a36661a426fc0
+      internalID: -1536004005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa128ac14d0f8841862a590e20eaab3
+      internalID: -1354203180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 847
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29fc511f07d28a4c9fef8f66cd6b1b7
+      internalID: 1082037066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810a08181dc6e3d429cbf1fbd9e29955
+      internalID: -1357012986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca09067c0d4c5664c8ebee562d46ef71
+      internalID: -1576497182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1441d4041c566f7419d1297e5e5ca5d0
+      internalID: 1633273804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d20b76235cb2f4a8b5f9b2aeef799c
+      internalID: 71805456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d23ef72ee7ecdd4ba7bad32b5e379e7
+      internalID: -558178257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4649978d17831a34daea7d075a2341bd
+      internalID: 991085881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 706
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3fa6ac6e4c1a347b8baa26e732ea8f
+      internalID: -106249301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8338d17b4041fce4da1af5a0480860ae
+      internalID: -2049779831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47229447ed6ec67419d9fce397ad59e6
+      internalID: -1022504706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb645475b45ba347a156da2d52bd4ae
+      internalID: 191490433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3de140b7d358634082501e1284d7d38
+      internalID: 1814504559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd250659a3123d945baa13a6570aa455
+      internalID: 191284058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd1640d0fde81a4b89243c4d0847d93
+      internalID: -74316208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 565
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8977ffb89c944c84f9c36bf0d48cdfb6
+      internalID: -1451030153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f0bdba12720be4bb22bc72f5a35e2f
+      internalID: 24345562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94c2aab7db55d942958c7f021a20284
+      internalID: 1028423589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420099d73486f864386f7587356d167b
+      internalID: -1591147045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117dcd2a15ec77b478fe1964d0fb4696
+      internalID: -1866473262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e57860a1386c4469c711d1266e84f5
+      internalID: 742762852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7349bf4a22f34a8ada03e728fc196
+      internalID: 393792349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 424
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7d1254dcb5405408b0fc4593469f68
+      internalID: -1038274503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4e34170dafa224e98839187359bcc9
+      internalID: 908664962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b11a8c5841e6468ee6d6066319e10
+      internalID: 1879642615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e732bfa299a8014597a3cef4c6b5db6
+      internalID: -1418771169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b27481d24e3654c943c2fdb1cec2c4
+      internalID: 1206817249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3339689dc8308c948beb445f8fa794d7
+      internalID: 4821955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3273d63f63224634bb55cfdd76e1e1e4
+      internalID: -944764759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 283
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df4aaf033a91c145b52b09fde342904
+      internalID: 363772129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b073420405d155947b1cd613b18e98af
+      internalID: -2001803633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ea6456f867c3043ad95a56d64f6eb2
+      internalID: -1078275331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5be5267430134383ad99dd83ea26e
+      internalID: -594144118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d67c8c364d936498757766713b5115
+      internalID: 1198446592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd9cda3b16b86746b0e5472976c585e
+      internalID: 2032324431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5530aeb793278b343866c6b6f81ec267
+      internalID: 1847834816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 142
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9853bba9e81d81343b33815295447fab
+      internalID: -885698747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4715e13014f5eaa478b2f670369c5984
+      internalID: -429802931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c1643e25a128b419b1945b82e4dfe7
+      internalID: 1836593184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0ab330e7573e24292aad5761e2ddce
+      internalID: 1142359226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 108
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9c8e3cf26a3a419e24ca2c9f1c288
+      internalID: 1808487702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 108
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e6fd05061af44a8185277000f9e9d
+      internalID: -562374154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 108
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8244fd3aa8793dd4080f8c09a14d6aef
+      internalID: 2034626120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 108
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdc7984b2f3f6149ae701354594edb4
+      internalID: -1193161379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 108
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bd84e641393ed4da5a1e2210893bde
+      internalID: -666832698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 74
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a92dafa8c68664489b6f40779dbb82
+      internalID: 1970532768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 74
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc04ce41ee18bac458b0c6e6508dfc25
+      internalID: -1485598013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 74
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e1b7ea622e79f4c81d01b21b119b25
+      internalID: 1280665786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 74
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725eca75eb1fdb244a03c440184fb6cc
+      internalID: -400554272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 74
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b18a095019a5b4a9a08e2af8a6313a
+      internalID: -1569035130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 40
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e155c6f4406f084b9887528447a219d
+      internalID: 1031427146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 40
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae19862f31dc814b8c3bf96f6d47f98
+      internalID: -1264426596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 40
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a482160434cca064698cf19d611d2914
+      internalID: 70891337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 40
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77b936fd1627e54a8961d0af6d2ad93
+      internalID: 1166226953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 40
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975201e655597d141ad667ec12477481
+      internalID: 1344463100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 6
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9285cfbb9430249865425c8504ef6a
+      internalID: 577150095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 6
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63050c3724ed8c4c8a1b19650dae154
+      internalID: 632707000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 6
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fdcf632cd09c34b8594cd7002f8c06
+      internalID: -858326878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 6
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826695ba5a3b384abe1575658cd5a1f
+      internalID: -1643656097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rpg-GUI-Animation-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 6
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd44a6e23da39d4898c5a257ee456ac
+      internalID: -827326109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rpg-GUI-Animation-Sheet_0: 58594431
+      Rpg-GUI-Animation-Sheet_1: -1977674764
+      Rpg-GUI-Animation-Sheet_10: 71805456
+      Rpg-GUI-Animation-Sheet_11: -558178257
+      Rpg-GUI-Animation-Sheet_12: 991085881
+      Rpg-GUI-Animation-Sheet_13: -106249301
+      Rpg-GUI-Animation-Sheet_14: -2049779831
+      Rpg-GUI-Animation-Sheet_15: -1022504706
+      Rpg-GUI-Animation-Sheet_16: 191490433
+      Rpg-GUI-Animation-Sheet_17: 1814504559
+      Rpg-GUI-Animation-Sheet_18: 191284058
+      Rpg-GUI-Animation-Sheet_19: -74316208
+      Rpg-GUI-Animation-Sheet_2: 998277205
+      Rpg-GUI-Animation-Sheet_20: -1451030153
+      Rpg-GUI-Animation-Sheet_21: 24345562
+      Rpg-GUI-Animation-Sheet_22: 1028423589
+      Rpg-GUI-Animation-Sheet_23: -1591147045
+      Rpg-GUI-Animation-Sheet_24: -1866473262
+      Rpg-GUI-Animation-Sheet_25: 742762852
+      Rpg-GUI-Animation-Sheet_26: 393792349
+      Rpg-GUI-Animation-Sheet_27: -1038274503
+      Rpg-GUI-Animation-Sheet_28: 908664962
+      Rpg-GUI-Animation-Sheet_29: 1879642615
+      Rpg-GUI-Animation-Sheet_3: -702490505
+      Rpg-GUI-Animation-Sheet_30: -1418771169
+      Rpg-GUI-Animation-Sheet_31: 1206817249
+      Rpg-GUI-Animation-Sheet_32: 4821955
+      Rpg-GUI-Animation-Sheet_33: -944764759
+      Rpg-GUI-Animation-Sheet_34: 363772129
+      Rpg-GUI-Animation-Sheet_35: -2001803633
+      Rpg-GUI-Animation-Sheet_36: -1078275331
+      Rpg-GUI-Animation-Sheet_37: -594144118
+      Rpg-GUI-Animation-Sheet_38: 1198446592
+      Rpg-GUI-Animation-Sheet_39: 2032324431
+      Rpg-GUI-Animation-Sheet_4: -1536004005
+      Rpg-GUI-Animation-Sheet_40: 1847834816
+      Rpg-GUI-Animation-Sheet_41: -885698747
+      Rpg-GUI-Animation-Sheet_42: -429802931
+      Rpg-GUI-Animation-Sheet_43: 1836593184
+      Rpg-GUI-Animation-Sheet_44: 1142359226
+      Rpg-GUI-Animation-Sheet_45: 1808487702
+      Rpg-GUI-Animation-Sheet_46: -562374154
+      Rpg-GUI-Animation-Sheet_47: 2034626120
+      Rpg-GUI-Animation-Sheet_48: -1193161379
+      Rpg-GUI-Animation-Sheet_49: -666832698
+      Rpg-GUI-Animation-Sheet_5: -1354203180
+      Rpg-GUI-Animation-Sheet_50: 1970532768
+      Rpg-GUI-Animation-Sheet_51: -1485598013
+      Rpg-GUI-Animation-Sheet_52: 1280665786
+      Rpg-GUI-Animation-Sheet_53: -400554272
+      Rpg-GUI-Animation-Sheet_54: -1569035130
+      Rpg-GUI-Animation-Sheet_55: 1031427146
+      Rpg-GUI-Animation-Sheet_56: -1264426596
+      Rpg-GUI-Animation-Sheet_57: 70891337
+      Rpg-GUI-Animation-Sheet_58: 1166226953
+      Rpg-GUI-Animation-Sheet_59: 1344463100
+      Rpg-GUI-Animation-Sheet_6: 1082037066
+      Rpg-GUI-Animation-Sheet_60: 577150095
+      Rpg-GUI-Animation-Sheet_61: 632707000
+      Rpg-GUI-Animation-Sheet_62: -858326878
+      Rpg-GUI-Animation-Sheet_63: -1643656097
+      Rpg-GUI-Animation-Sheet_64: -827326109
+      Rpg-GUI-Animation-Sheet_7: -1357012986
+      Rpg-GUI-Animation-Sheet_8: -1576497182
+      Rpg-GUI-Animation-Sheet_9: 1633273804
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

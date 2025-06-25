@@ -1,0 +1,3682 @@
+fileFormatVersion: 2
+guid: 1424f0d8d510e6b4ca8e011e5076c041
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 46
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ground_tile_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 375
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b67713d9519744d8b5e2c2b2f9c81b
+      internalID: 438288862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdf3f459023ac1469774bd9df47723e
+      internalID: 874884082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 374
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c629a02c583c85643997da83cd70ecbf
+      internalID: 1159982306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc90c9e54d79df479a9938a2ea89e23
+      internalID: 1809887171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 419
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1aeda4d218352418dc983a9d7b2e9a
+      internalID: 558170034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 418
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f248da9edd2117b4394e4467cd5b7c36
+      internalID: 620181357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 357
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f58c9e73346f74e90afdcaa0f29222
+      internalID: 1051672429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 357
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ad8237681824c4ab34c396f0ce8092
+      internalID: -2132261364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 388
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e189f0d8761ae8c44af6857a0222495b
+      internalID: 772049685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 386
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8176104c93a70574680b528b913d95b3
+      internalID: -973780202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac487b8c35c70d84490e2bf0a9efda8f
+      internalID: -105178065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 368
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ccf41dd3c753b4ebc42c6f99b71885
+      internalID: -1046546823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 375
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a020aa62dedbeb4f80dd10db2aaa5ce
+      internalID: 240230703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 368
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d98c8b59f11346bc710eeee32477c
+      internalID: 981930044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 324
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9be0de63a1abb4baae99799fefd905
+      internalID: 1409372217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 328
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39996130078c224ba2657cf459722ae
+      internalID: 207403052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 356
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399465a6d8858674ab166f44fbd67df1
+      internalID: 42783575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2ea2bb386a3c04fab74d0c5b7fa84a
+      internalID: -140804464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 340
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fd6afb84eb83f4a8873e25abb23a91
+      internalID: -917683372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 339
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a4791c7bc42fc409348147338f4056
+      internalID: 182902936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 343
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1cf749c31f4a42b5d447b799ff4c6
+      internalID: -2104692869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 342
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2665abf592cfa448b55e6e9f8560fa5
+      internalID: 1070844632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 353
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91f79fe01637b74085b62b3e0edd638
+      internalID: -960340311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 339
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b6da48843b8740bd77df43d6a9330
+      internalID: -1535589844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 337
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5003235b86afe1b418bc7bf90c5cbe2a
+      internalID: 1322662980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 321
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681c51c05ede91f4b9f1a063d18d77c1
+      internalID: 1052076217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_26
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 322
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367b146230e89464baa6324b976db5a6
+      internalID: 1105457770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_27
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 322
+        width: 62
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc795090b73c7e45be1230a9a347480
+      internalID: 584779877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 307
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1a8ec1ffc1844da9495014df417ed
+      internalID: 2041559408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 299
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1729ea22d4a534f899d1f458179cc8
+      internalID: 625718696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 311
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c59de099556fb4aa88c6775abfd29b
+      internalID: 848008471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 309
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d45e7915562dd42b1f9d02771ad607
+      internalID: -1294120162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 326
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0141471cc59f5c94db1e9333f9cfedc7
+      internalID: 1846289458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 322
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8da085e88447b489f47115cc7548bf
+      internalID: 381500782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 307
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e132cc4baf26cea4caf0892ff1da21a8
+      internalID: 1301594751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 290
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff563d0f469cff9499d6dc5ea1f6917b
+      internalID: -1342272112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_36
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 309
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfeca947cd2b844c802d757eb7cc480
+      internalID: 736204715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 291
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e09a8af5df01ce4fa1d1d8357035c4f
+      internalID: 815101939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_38
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 290
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b643b1c1c2837f04d85deae4bf2d1957
+      internalID: -388447719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_39
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 292
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddabeeaaf99b204d8d85bdf1006555f
+      internalID: -1437059777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_40
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 257
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a5794c7722e6438a1089cfd98354e
+      internalID: 1872756917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 263
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3f538d0d1206c4c8d9358f0607a209
+      internalID: -55423744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10df76d6432f05c4fbc001e15a55ccb1
+      internalID: 1229486135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 264
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc462f69ffefdf46b43cbbe70e230d5
+      internalID: -613221796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_44
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 274
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621caf8bcd6a016489c65fa3b600bf8d
+      internalID: 1401698689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1c33bd769d8ea47a58ceca25125f49
+      internalID: -716806589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 279
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf144148db5c1469a1e96cdc6ec4b7
+      internalID: 1583093685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 276
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6554eb1bd096f75498e9a5de8de1a0b3
+      internalID: 1591109630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_48
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 278
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f8f33af38d3b4e9d2bb1a47273fdf
+      internalID: 983167079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_49
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 259
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bafa42b4c7397f4b95659856b0c5dee
+      internalID: 990300750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 289
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed7677da15675d4eb77429bb5220802
+      internalID: 884249322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_51
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 293
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5b2079f83086f45bcd75649f89cc62
+      internalID: 396462391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 277
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33687d13fae8e8248959266d368d44d7
+      internalID: 241823395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_53
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 289
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e717eb73e8277ed4797a13ff355ba3ea
+      internalID: 978682880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_54
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 272
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf2168284ac2874ab5df7302bed44dd
+      internalID: 1640689765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_55
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 259
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87dedd372443254aa20a83311cecd86
+      internalID: -705951206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_56
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 257
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa22a9494beabc4b973db7216232592
+      internalID: -353401595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_57
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 257
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb75819a7d01124d8de8362f6fc4a12
+      internalID: -771965254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_58
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 266
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc03b422c4aefd4e822db8a35ab4c83
+      internalID: -722535571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_59
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 259
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4cfb891f76d1b4f828d930be0cc61e
+      internalID: -944861950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_60
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 258
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d836e69cbc7c5488a1078d894e53f4
+      internalID: -1149649569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 258
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884698b83f3f3e445be6132c009e99bc
+      internalID: -1915846302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_62
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85e144d0b43f646be08bbd5313c8e3
+      internalID: 60315791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_63
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 260
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26efa47f0251214c94d390034f36d35
+      internalID: -775898478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_64
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 260
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c47a1cd2dcf5bd4388c71994d78bffe
+      internalID: -2069332898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4cc452039d39a43865a494c1b8011d
+      internalID: 1388747663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_66
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 182
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2709cf6b11de3a47bf28d294a39b1c8
+      internalID: -1302976776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92732e7b420e0474d84e184bbdf8b90f
+      internalID: -626111509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 227
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36193da384cb3dc49bc13012470966b7
+      internalID: -1809898746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 226
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5ad193be842204a80627a65f061487
+      internalID: -1054539670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_70
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 165
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c1eb5381092d34eb3ee8bbbbdad473
+      internalID: 1156346971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_71
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 165
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44666d9e37298e64cbefd0931cb28827
+      internalID: -408355974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_72
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 196
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eef98248531704183e7a8d8a13288a
+      internalID: 53732545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 194
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6acd6d8d84f99348b16a1752726aef2
+      internalID: 330104265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc641bf2deb0ea469186eac8325ad16
+      internalID: -1877652671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_75
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 176
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8652faf7b7be413448a9af234cb83170
+      internalID: -1893301709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_76
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 183
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1de1128dc0e614db866961d8b35751
+      internalID: -198274371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_77
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 176
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbbcc0f829299e44a2774a813d61820
+      internalID: -184223398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_78
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 132
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae7f88085723d3488c24fc282665e75
+      internalID: 783807011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_79
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 136
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c376f75a4e4df574f8d505cd4404c1f4
+      internalID: -105499553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_80
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 164
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f0cceeab6e9fd459f09a586d23382d
+      internalID: -1363215683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850d8dd5541ee9249bdbb78f4b3c2668
+      internalID: -1409641452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 148
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2dd73e3bb95f54f971dbb89f67eece
+      internalID: -366379019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_83
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 147
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b91dca14209a741a473c7bb769dfe0
+      internalID: 1326513052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 151
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c0d48a70b0c9a4d92486ba87cff0a8
+      internalID: 1331967334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_85
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 150
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad020e6a48d2944873969fe0edfe18
+      internalID: -1278352446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_86
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 161
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa57964e8d391e640b1d1d5ecd0aa673
+      internalID: 1013285446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 147
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9ed24f5373e004fbcdbe0fa29c3f13
+      internalID: 1421784656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_88
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 145
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1b9367cdbac4440b721e5aa8b2a9f9
+      internalID: -1987245739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_89
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 129
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d254d6860b6fd0499518d52314c367a
+      internalID: 1190820789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 130
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7434b765906ae6e4e8f986c1accc472e
+      internalID: -2124519202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_91
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 130
+        width: 62
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e1ada3ef0263d4eb430202291b2684
+      internalID: 689674718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_92
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 115
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b672534fccfa5374f9062dd6feb062ed
+      internalID: 493000727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 107
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8896dd68a83c492409e1f3d4e8a5b325
+      internalID: 1105072108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_94
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 119
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d375d10e3550d45bcd90ee98162fa7
+      internalID: 2134222538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_95
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f77563fe966f64a861ab261d731969
+      internalID: 525767765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 134
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd496f31bd6ea548b04adce36402ac6
+      internalID: -1508555186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 130
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058a03cc9e58a304c8306727fc1608fe
+      internalID: -1588837414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 115
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a40a45fcec9cc47a96c336c0da590d
+      internalID: -2047127888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_99
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 98
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c5bb4accbd5047a0976c6bb2918a5
+      internalID: -975005904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_100
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f818c158a2a5e0243a7812c90338d66c
+      internalID: -1294516146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_101
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 99
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53da275ad1b17e941b7ca9d996a166d7
+      internalID: -177431616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_102
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 98
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61ade16b7b415946afc3e0b51ed490b
+      internalID: 1863561043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_103
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 100
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614f049d7777cde4da724fee51dfe7af
+      internalID: -1699467507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_104
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 50
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ef0a325ec894c4f85a25291f30f2a0
+      internalID: -1016809444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_105
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 71
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb2e1522d0707b44af4db4adee7f81b
+      internalID: -1087799424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d541ec0b0a84b4ab66d46bccd4e784
+      internalID: 1174469819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 72
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c341a00e67f5ea64e934c57e3683f586
+      internalID: -1288498465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_108
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 82
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977411f90dc14ed40af9ab4ef080c884
+      internalID: -1331919854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 87
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b35ffb1e728cf644a517f13be876ce6
+      internalID: -2032276916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_110
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 87
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9730b969da344c549ad3167390e2f91c
+      internalID: -1139904188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_111
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 84
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a520586164b114f852111152a847b0
+      internalID: -472004220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_112
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 86
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05525cf8c4d6b1545be5e5f21457558c
+      internalID: 465875844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_113
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3f8c5eec4b86441bae09d8e0881ff2
+      internalID: -854371095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_114
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 97
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d6d34fe7550844f89ed50563565082
+      internalID: 1016536013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_115
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 101
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dbd947af0a2e94296a47909a1594f7
+      internalID: -1856990728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 85
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546f26aa619188428291db780008bd1
+      internalID: 1404017783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_117
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 97
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18587a5d33a0ec4cb212292f0bccc06
+      internalID: 980065570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_118
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 80
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a8b074a6adf8f4c9a8a672cf6678cc
+      internalID: 268994056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_119
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 67
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7782e7f2e8abddd479a5711d355f0ada
+      internalID: -978585331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_120
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 59
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695071545cdc4a2409143797f8a8a180
+      internalID: 177715020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_121
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 65
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d697fddff6d47428f362f00bccd55f
+      internalID: 1578160984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_122
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 74
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7d3529a1f5c94580a8bb0cbc71070
+      internalID: -982684241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_123
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 67
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43edf70bec0397e4db308babe5590c63
+      internalID: -897637491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_124
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 66
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6030f533f135154aa56e5bfb7d13767
+      internalID: -22875511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_125
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6bae87df73b3243bb2bd99dc6221d5
+      internalID: -335092486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_126
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 68
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aac60ee0eb08d2439187c499714ec01
+      internalID: 2128015563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_127
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 37
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646506edc1e55e44ab60a39174dfcc4f
+      internalID: -2104565801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_128
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab819f467abe5224cb370f1851355c8d
+      internalID: 2102037148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7360cf55cb84c45877cbabeca96728
+      internalID: -1681515417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_130
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 35
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b067977ba56b1439b17609a3202d74
+      internalID: -327068834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_131
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 39
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd021c9f2fcb374c837873e1b33c68c
+      internalID: 1032955683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_132
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aab06b37c11f14aa57ff5baa40845b
+      internalID: 1367104314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_133
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 52
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e325e75eb1c0f864cb7445af21a1cfc1
+      internalID: -483904909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_134
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 24
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf275d9abd1795a4b9835ed6accec786
+      internalID: -1707245894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_135
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 34
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9013acbbfa27e8848a348ec676828ab7
+      internalID: -684879467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 39
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ea81d49812a3f469675430ab84157f
+      internalID: -1586291764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_137
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 39
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa6000fdcd0eb149b4797520f7ef639
+      internalID: 1628027457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_138
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 36
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffc6c96d7e937a40a2cfc22be6e4002
+      internalID: -1299678219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_139
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 38
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d7c65922fc7a47be5301e6eb98a49
+      internalID: 668715990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_140
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 49
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba22787708a07418395f33c02eb30e
+      internalID: 1674987669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_141
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 36
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e18f8232b567234eb4cb7223054df28
+      internalID: -1486622295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_142
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 41
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f0008c5939e34d891b72d73f32044
+      internalID: 349889784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_143
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 51
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a435dd17cc2c64493c3a6349ba326c
+      internalID: 2065502914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_144
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 35
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d2c2c5c37b5f04098b1eea70e35e00
+      internalID: -535475741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_145
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676c7040a2d979c499c7c1eb958e3661
+      internalID: -1848941216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_146
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ae05f35df75ca44a08ea1bd0d2354c
+      internalID: -1099257442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_147
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 35
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f8ff67b9b97649be8e5ca50aeb2ef
+      internalID: 801146876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_148
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03e652a9f317a4ca401400b06137a8
+      internalID: -1106640382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_149
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcacdab1b7822ec4c8eeefe0ab42416c
+      internalID: 1911022654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_150
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dadd212c2f0ed5418eea8b314779ed6
+      internalID: -806399687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_151
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 7
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e34370508e660c429ffefa1680a0564
+      internalID: 2129351137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_152
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557027a948189d14c97227ac43938be5
+      internalID: -472150691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 22
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f392cdd5d6c0648bc2d23e07812dca
+      internalID: 844721843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_154
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 18
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f596693a342a44a3d4b1d6c399dbb
+      internalID: -1239342372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_155
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 20
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9593b87297e7074bbd348ee616716a7
+      internalID: -1487834459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_156
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 19
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c87f316d6f32c4fbbc61f80054ccc5
+      internalID: 1586690013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_157
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 19
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9025e2369aa4dac499a93f0f7652c45f
+      internalID: 1615957590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_158
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81bf405532dcb4fa1a1bc453f274b4
+      internalID: -1042675864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_159
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 18
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b157e0c8201b74949ade2fd1ca7fb26b
+      internalID: -1910892676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_tile_160
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358cc7302e2b52b4fb7054cec34836eb
+      internalID: -1290284886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ground_tile_0: 438288862
+      ground_tile_1: 874884082
+      ground_tile_10: -105178065
+      ground_tile_100: -1294516146
+      ground_tile_101: -177431616
+      ground_tile_102: 1863561043
+      ground_tile_103: -1699467507
+      ground_tile_104: -1016809444
+      ground_tile_105: -1087799424
+      ground_tile_106: 1174469819
+      ground_tile_107: -1288498465
+      ground_tile_108: -1331919854
+      ground_tile_109: -2032276916
+      ground_tile_11: -1046546823
+      ground_tile_110: -1139904188
+      ground_tile_111: -472004220
+      ground_tile_112: 465875844
+      ground_tile_113: -854371095
+      ground_tile_114: 1016536013
+      ground_tile_115: -1856990728
+      ground_tile_116: 1404017783
+      ground_tile_117: 980065570
+      ground_tile_118: 268994056
+      ground_tile_119: -978585331
+      ground_tile_12: 240230703
+      ground_tile_120: 177715020
+      ground_tile_121: 1578160984
+      ground_tile_122: -982684241
+      ground_tile_123: -897637491
+      ground_tile_124: -22875511
+      ground_tile_125: -335092486
+      ground_tile_126: 2128015563
+      ground_tile_127: -2104565801
+      ground_tile_128: 2102037148
+      ground_tile_129: -1681515417
+      ground_tile_13: 981930044
+      ground_tile_130: -327068834
+      ground_tile_131: 1032955683
+      ground_tile_132: 1367104314
+      ground_tile_133: -483904909
+      ground_tile_134: -1707245894
+      ground_tile_135: -684879467
+      ground_tile_136: -1586291764
+      ground_tile_137: 1628027457
+      ground_tile_138: -1299678219
+      ground_tile_139: 668715990
+      ground_tile_14: 1409372217
+      ground_tile_140: 1674987669
+      ground_tile_141: -1486622295
+      ground_tile_142: 349889784
+      ground_tile_143: 2065502914
+      ground_tile_144: -535475741
+      ground_tile_145: -1848941216
+      ground_tile_146: -1099257442
+      ground_tile_147: 801146876
+      ground_tile_148: -1106640382
+      ground_tile_149: 1911022654
+      ground_tile_15: 207403052
+      ground_tile_150: -806399687
+      ground_tile_151: 2129351137
+      ground_tile_152: -472150691
+      ground_tile_153: 844721843
+      ground_tile_154: -1239342372
+      ground_tile_155: -1487834459
+      ground_tile_156: 1586690013
+      ground_tile_157: 1615957590
+      ground_tile_158: -1042675864
+      ground_tile_159: -1910892676
+      ground_tile_16: 42783575
+      ground_tile_160: -1290284886
+      ground_tile_17: -140804464
+      ground_tile_18: -917683372
+      ground_tile_19: 182902936
+      ground_tile_2: 1159982306
+      ground_tile_20: -2104692869
+      ground_tile_21: 1070844632
+      ground_tile_22: -960340311
+      ground_tile_23: -1535589844
+      ground_tile_24: 1322662980
+      ground_tile_25: 1052076217
+      ground_tile_26: 1105457770
+      ground_tile_27: 584779877
+      ground_tile_28: 2041559408
+      ground_tile_29: 625718696
+      ground_tile_3: 1809887171
+      ground_tile_30: 848008471
+      ground_tile_31: -1294120162
+      ground_tile_32: 1846289458
+      ground_tile_33: 381500782
+      ground_tile_34: 1301594751
+      ground_tile_35: -1342272112
+      ground_tile_36: 736204715
+      ground_tile_37: 815101939
+      ground_tile_38: -388447719
+      ground_tile_39: -1437059777
+      ground_tile_4: 558170034
+      ground_tile_40: 1872756917
+      ground_tile_41: -55423744
+      ground_tile_42: 1229486135
+      ground_tile_43: -613221796
+      ground_tile_44: 1401698689
+      ground_tile_45: -716806589
+      ground_tile_46: 1583093685
+      ground_tile_47: 1591109630
+      ground_tile_48: 983167079
+      ground_tile_49: 990300750
+      ground_tile_5: 620181357
+      ground_tile_50: 884249322
+      ground_tile_51: 396462391
+      ground_tile_52: 241823395
+      ground_tile_53: 978682880
+      ground_tile_54: 1640689765
+      ground_tile_55: -705951206
+      ground_tile_56: -353401595
+      ground_tile_57: -771965254
+      ground_tile_58: -722535571
+      ground_tile_59: -944861950
+      ground_tile_6: 1051672429
+      ground_tile_60: -1149649569
+      ground_tile_61: -1915846302
+      ground_tile_62: 60315791
+      ground_tile_63: -775898478
+      ground_tile_64: -2069332898
+      ground_tile_65: 1388747663
+      ground_tile_66: -1302976776
+      ground_tile_67: -626111509
+      ground_tile_68: -1809898746
+      ground_tile_69: -1054539670
+      ground_tile_7: -2132261364
+      ground_tile_70: 1156346971
+      ground_tile_71: -408355974
+      ground_tile_72: 53732545
+      ground_tile_73: 330104265
+      ground_tile_74: -1877652671
+      ground_tile_75: -1893301709
+      ground_tile_76: -198274371
+      ground_tile_77: -184223398
+      ground_tile_78: 783807011
+      ground_tile_79: -105499553
+      ground_tile_8: 772049685
+      ground_tile_80: -1363215683
+      ground_tile_81: -1409641452
+      ground_tile_82: -366379019
+      ground_tile_83: 1326513052
+      ground_tile_84: 1331967334
+      ground_tile_85: -1278352446
+      ground_tile_86: 1013285446
+      ground_tile_87: 1421784656
+      ground_tile_88: -1987245739
+      ground_tile_89: 1190820789
+      ground_tile_9: -973780202
+      ground_tile_90: -2124519202
+      ground_tile_91: 689674718
+      ground_tile_92: 493000727
+      ground_tile_93: 1105072108
+      ground_tile_94: 2134222538
+      ground_tile_95: 525767765
+      ground_tile_96: -1508555186
+      ground_tile_97: -1588837414
+      ground_tile_98: -2047127888
+      ground_tile_99: -975005904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
