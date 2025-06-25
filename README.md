@@ -19,7 +19,7 @@ Adam Chermouh: Developed enemies and boss logic, wrote story and dialogue
 ---
 
 ## Notes:
-Our original idea was to create a first-person survival horror game with multiplayer support. However, it wasn’t approved (“not unique enough,” said one of the professors), so we had to brainstorm a new concept—an RPG.
+Our original idea was to create a first-person survival horror game with multiplayer support (the attached PowerPoint). However, it wasn’t approved (“not unique enough,” said one of the professors), so we had to brainstorm a new concept—an RPG.
 
 This was a major setback for us, as while other teams had the full 8 weeks to build their games, we only had 6.
 Moreover, most of our team was new to Unity, and we needed about a week just to learn the engine, effectively reducing our actual development time to 5 weeks.
